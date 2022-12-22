@@ -1,0 +1,2022 @@
+<!-- Compiled on Thursday, 22nd December 2022, at 16:07:29  -->
+<!-- v1.46.2 -->
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>oil-profit-ai.com</title>
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
+    <style>
+      /* Compiled on Thursday, 22nd December 2022, at 15:33:03  */
+      @media (min-width: 1280px) {
+        .so-10 .container {
+          max-width: 1115px;
+        }
+      }
+      .-z-1 {
+        z-index: -1;
+      }
+      .so-10 .bg-gray {
+        background-color: #f8f7ff;
+      }
+      .so-10 .trades-completed {
+        color: #7aab35;
+      }
+      .so-10 .bottom-angle {
+        width: 0;
+        height: 0;
+        border-bottom: 25px solid #f8f7ff;
+        border-left: 100vw solid transparent;
+      }
+      @media (min-width: 1028px) {
+        .so-10 .bottom-angle {
+          border-bottom: 100px solid #f8f7ff;
+        }
+      }
+      .so-10 .top-angle {
+        width: 0;
+        height: 0;
+        border-bottom: 25px solid #f8f7ff;
+        border-right: 100vw solid transparent;
+        transform: rotate(180deg);
+        z-index: -1;
+        position: relative;
+      }
+      @media (min-width: 1028px) {
+        .so-10 .top-angle {
+          border-bottom: 100px solid #f8f7ff;
+        }
+      }
+      .so-10 .millennial-text a {
+        text-decoration: underline;
+        -webkit-text-decoration-color: #3100ff;
+        text-decoration-color: #3100ff;
+      }
+      .mobile-background {
+        background: linear-gradient(180deg, rgba(248, 247, 255, 0), #dfdcef);
+      }
+      .so-10 .faq__item-input:checked ~ .faq__item-label .faq__icon-plus {
+        display: none;
+      }
+      .so-10 .faq__item-input:checked ~ .faq__item-label .faq__icon-minus {
+        display: flex;
+      }
+      .so-10 .faq__item-input:checked ~ .faq__item-label {
+        font-weight: 400;
+      }
+      .so-10 .faq__item-input:checked ~ .faq__body {
+        border-width: 0;
+      }
+      .so-10 .faq__body p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .so-10 .footer-angle {
+        width: 0;
+        height: 0;
+        border-bottom: 25px solid #08131f;
+        border-right: 100vw solid transparent;
+        background: #f8f7ff;
+      }
+      @media (min-width: 1028px) {
+        .so-10 .footer-angle {
+          border-bottom: 50px solid #08131f;
+        }
+      }
+      .footer-bg-1 {
+        background-color: #08131f;
+      }
+      .footer-bg-2 {
+        background-color: #050d17;
+      } /*! tailwindcss v2.1.1 | MIT License | https://tailwindcss.com*/
+
+      /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+      :root {
+        -moz-tab-size: 4;
+        -o-tab-size: 4;
+        tab-size: 4;
+      }
+      html {
+        line-height: 1.15;
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+      }
+      strong {
+        font-weight: bolder;
+      }
+      small {
+        font-size: 80%;
+      }
+      button,
+      input {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+      }
+      button {
+        text-transform: none;
+      }
+      [type="button"],
+      [type="submit"],
+      button {
+        -webkit-appearance: button;
+      }
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+      button {
+        background-color: transparent;
+        background-image: none;
+      }
+      button:focus {
+        outline: 1px dotted;
+        outline: 5px auto -webkit-focus-ring-color;
+      }
+      ol,
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+      ol,
+      ul {
+        list-style: none;
+      }
+      html {
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        line-height: 1.5;
+      }
+      body {
+        font-family: inherit;
+        line-height: inherit;
+      }
+      * {
+        box-sizing: border-box;
+        border: 0 solid #e4e4e7;
+      }
+      img {
+        border-style: solid;
+      }
+      input::-moz-placeholder {
+        opacity: 1;
+        color: #a1a1aa;
+      }
+      input:-ms-input-placeholder {
+        opacity: 1;
+        color: #a1a1aa;
+      }
+      input::placeholder {
+        opacity: 1;
+        color: #a1a1aa;
+      }
+      [role="button"],
+      button {
+        cursor: pointer;
+      }
+      h1,
+      h2,
+      h3 {
+        font-size: inherit;
+        font-weight: inherit;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      button,
+      input {
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+      }
+      iframe,
+      img,
+      object,
+      svg {
+        display: block;
+        vertical-align: middle;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 1rem;
+        padding-left: 1rem;
+      }
+      @media (min-width: 640px) {
+        .container {
+          max-width: 640px;
+        }
+      }
+      @media (min-width: 768px) {
+        .container {
+          max-width: 768px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .container {
+          max-width: 1024px;
+        }
+      }
+      @media (min-width: 1280px) {
+        .container {
+          max-width: 1280px;
+        }
+      }
+      @media (min-width: 1536px) {
+        .container {
+          max-width: 1536px;
+        }
+      }
+      .prose {
+        color: #3f3f46;
+        max-width: 65ch;
+      }
+      .prose [class~="lead"] {
+        color: #52525b;
+        font-size: 1.25em;
+        line-height: 1.6;
+        margin-top: 1.2em;
+        margin-bottom: 1.2em;
+      }
+      .prose a {
+        color: #18181b;
+        text-decoration: underline;
+        font-weight: 500;
+      }
+      .prose strong {
+        color: #18181b;
+        font-weight: 600;
+      }
+      .prose ol[type="a"] {
+        --list-counter-style: lower-alpha;
+      }
+      .prose ol[type="i"] {
+        --list-counter-style: lower-roman;
+      }
+      .prose ol[type="1"] {
+        --list-counter-style: decimal;
+      }
+      .prose ol > li {
+        position: relative;
+        padding-left: 1.75em;
+      }
+      .prose ol > li:before {
+        content: counter(list-item, var(--list-counter-style, decimal)) ".";
+        position: absolute;
+        font-weight: 400;
+        color: #71717a;
+        left: 0;
+      }
+      .prose ul > li {
+        position: relative;
+        padding-left: 1.75em;
+      }
+      .prose ul > li:before {
+        content: "";
+        position: absolute;
+        background-color: #d4d4d8;
+        border-radius: 50%;
+        width: 0.375em;
+        height: 0.375em;
+        top: 0.6875em;
+        left: 0.25em;
+      }
+      .prose h1 {
+        color: #18181b;
+        font-weight: 800;
+        font-size: 2.25em;
+        margin-top: 0;
+        margin-bottom: 0.8888889em;
+        line-height: 1.1111111;
+      }
+      .prose h2 {
+        color: #18181b;
+        font-weight: 700;
+        font-size: 1.5em;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        line-height: 1.3333333;
+      }
+      .prose h3 {
+        font-size: 1.25em;
+        margin-top: 1.6em;
+        margin-bottom: 0.6em;
+        line-height: 1.6;
+      }
+      .prose h3 {
+        color: #18181b;
+        font-weight: 600;
+      }
+      .prose {
+        font-size: 1rem;
+        line-height: 1.75;
+      }
+      .prose p {
+        margin-top: 1.25em;
+        margin-bottom: 1.25em;
+      }
+      .prose img {
+        margin-top: 2em;
+        margin-bottom: 2em;
+      }
+      .prose ol,
+      .prose ul {
+        margin-top: 1.25em;
+        margin-bottom: 1.25em;
+      }
+      .prose li {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+      }
+      .prose > ul > li p {
+        margin-top: 0.75em;
+        margin-bottom: 0.75em;
+      }
+      .prose > ul > li > :first-child {
+        margin-top: 1.25em;
+      }
+      .prose > ul > li > :last-child {
+        margin-bottom: 1.25em;
+      }
+      .prose > ol > li > :first-child {
+        margin-top: 1.25em;
+      }
+      .prose > ol > li > :last-child {
+        margin-bottom: 1.25em;
+      }
+      .prose ol ol,
+      .prose ol ul,
+      .prose ul ol,
+      .prose ul ul {
+        margin-top: 0.75em;
+        margin-bottom: 0.75em;
+      }
+      .prose h2 + *,
+      .prose h3 + * {
+        margin-top: 0;
+      }
+      .prose > :first-child {
+        margin-top: 0;
+      }
+      .prose > :last-child {
+        margin-bottom: 0;
+      }
+      .prose-sm {
+        font-size: 0.875rem;
+        line-height: 1.7142857;
+      }
+      .prose-sm p {
+        margin-top: 1.1428571em;
+        margin-bottom: 1.1428571em;
+      }
+      .prose-sm [class~="lead"] {
+        font-size: 1.2857143em;
+        line-height: 1.5555556;
+        margin-top: 0.8888889em;
+        margin-bottom: 0.8888889em;
+      }
+      .prose-sm h1 {
+        font-size: 2.1428571em;
+        margin-top: 0;
+        margin-bottom: 0.8em;
+        line-height: 1.2;
+      }
+      .prose-sm h2 {
+        font-size: 1.4285714em;
+        margin-top: 1.6em;
+        margin-bottom: 0.8em;
+        line-height: 1.4;
+      }
+      .prose-sm h3 {
+        font-size: 1.2857143em;
+        margin-top: 1.5555556em;
+        margin-bottom: 0.4444444em;
+        line-height: 1.5555556;
+      }
+      .prose-sm img {
+        margin-top: 1.7142857em;
+        margin-bottom: 1.7142857em;
+      }
+      .prose-sm ol,
+      .prose-sm ul {
+        margin-top: 1.1428571em;
+        margin-bottom: 1.1428571em;
+      }
+      .prose-sm li {
+        margin-top: 0.2857143em;
+        margin-bottom: 0.2857143em;
+      }
+      .prose-sm ol > li {
+        padding-left: 1.5714286em;
+      }
+      .prose-sm ol > li:before {
+        left: 0;
+      }
+      .prose-sm ul > li {
+        padding-left: 1.5714286em;
+      }
+      .prose-sm ul > li:before {
+        height: 0.3571429em;
+        width: 0.3571429em;
+        top: 0.67857em;
+        left: 0.2142857em;
+      }
+      .prose-sm > ul > li p {
+        margin-top: 0.5714286em;
+        margin-bottom: 0.5714286em;
+      }
+      .prose-sm > ul > li > :first-child {
+        margin-top: 1.1428571em;
+      }
+      .prose-sm > ul > li > :last-child {
+        margin-bottom: 1.1428571em;
+      }
+      .prose-sm > ol > li > :first-child {
+        margin-top: 1.1428571em;
+      }
+      .prose-sm > ol > li > :last-child {
+        margin-bottom: 1.1428571em;
+      }
+      .prose-sm ol ol,
+      .prose-sm ol ul,
+      .prose-sm ul ol,
+      .prose-sm ul ul {
+        margin-top: 0.5714286em;
+        margin-bottom: 0.5714286em;
+      }
+      .prose-sm h2 + *,
+      .prose-sm h3 + * {
+        margin-top: 0;
+      }
+      .prose-sm > :first-child {
+        margin-top: 0;
+      }
+      .prose-sm > :last-child {
+        margin-bottom: 0;
+      }
+      .bg-black {
+        --tw-bg-opacity: 1;
+        background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+      }
+      .bg-white {
+        --tw-bg-opacity: 1;
+        background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+      }
+      .bg-gray-300 {
+        --tw-bg-opacity: 1;
+        background-color: rgba(212, 212, 216, var(--tw-bg-opacity));
+      }
+      .bg-blue-500 {
+        --tw-bg-opacity: 1;
+        background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
+      }
+      .bg-blue-700 {
+        --tw-bg-opacity: 1;
+        background-color: rgba(29, 78, 216, var(--tw-bg-opacity));
+      }
+      .bg-blazeorange {
+        --tw-bg-opacity: 1;
+        background-color: rgba(250, 100, 0, var(--tw-bg-opacity));
+      }
+      .bg-yelloworange {
+        --tw-bg-opacity: 1;
+        background-color: rgba(254, 163, 62, var(--tw-bg-opacity));
+      }
+      .bg-darkBlue {
+        --tw-bg-opacity: 1;
+        background-color: rgba(0, 17, 50, var(--tw-bg-opacity));
+      }
+      .bg-so-10-cta {
+        --tw-bg-opacity: 1;
+        background-color: rgba(122, 171, 53, var(--tw-bg-opacity));
+      }
+      .bg-cyan-blue {
+        --tw-bg-opacity: 1;
+        background-color: rgba(39, 153, 244, var(--tw-bg-opacity));
+      }
+      .hover\:bg-blue-700:hover {
+        --tw-bg-opacity: 1;
+        background-color: rgba(29, 78, 216, var(--tw-bg-opacity));
+      }
+      .hover\:bg-orange-500:hover {
+        --tw-bg-opacity: 1;
+        background-color: rgba(249, 115, 22, var(--tw-bg-opacity));
+      }
+      .hover\:bg-alablasterlight:hover {
+        --tw-bg-opacity: 1;
+        background-color: rgba(248, 248, 248, var(--tw-bg-opacity));
+      }
+      .hover\:bg-cyan-blue-dark:hover {
+        --tw-bg-opacity: 1;
+        background-color: rgba(33, 122, 196, var(--tw-bg-opacity));
+      }
+      .bg-opacity-80 {
+        --tw-bg-opacity: 0.8;
+      }
+      .bg-no-repeat {
+        background-repeat: no-repeat;
+      }
+      .bg-cover {
+        background-size: cover;
+      }
+      .border-white {
+        --tw-border-opacity: 1;
+        border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+      }
+      .border-gray-600 {
+        --tw-border-opacity: 1;
+        border-color: rgba(82, 82, 91, var(--tw-border-opacity));
+      }
+      .border-red-500 {
+        --tw-border-opacity: 1;
+        border-color: rgba(239, 68, 68, var(--tw-border-opacity));
+      }
+      .rounded {
+        border-radius: 0.25rem;
+      }
+      .rounded-lg {
+        border-radius: 0.5rem;
+      }
+      .rounded-full {
+        border-radius: 9999px;
+      }
+      .border-dotted {
+        border-style: dotted;
+      }
+      .border-2 {
+        border-width: 2px;
+      }
+      .border-4 {
+        border-width: 4px;
+      }
+      .border {
+        border-width: 1px;
+      }
+      .border-t {
+        border-top-width: 1px;
+      }
+      .border-b {
+        border-bottom-width: 1px;
+      }
+      .border-l {
+        border-left-width: 1px;
+      }
+      .cursor-pointer {
+        cursor: pointer;
+      }
+      .block {
+        display: block;
+      }
+      .inline-block {
+        display: inline-block;
+      }
+      .flex {
+        display: flex;
+      }
+      .inline-flex {
+        display: inline-flex;
+      }
+      .hidden {
+        display: none;
+      }
+      .flex-col {
+        flex-direction: column;
+      }
+      .flex-col-reverse {
+        flex-direction: column-reverse;
+      }
+      .flex-wrap {
+        flex-wrap: wrap;
+      }
+      .items-start {
+        align-items: flex-start;
+      }
+      .items-center {
+        align-items: center;
+      }
+      .items-baseline {
+        align-items: baseline;
+      }
+      .justify-center {
+        justify-content: center;
+      }
+      .justify-between {
+        justify-content: space-between;
+      }
+      .flex-1 {
+        flex: 1 1 0%;
+      }
+      .flex-grow-0 {
+        flex-grow: 0;
+      }
+      .flex-shrink-0 {
+        flex-shrink: 0;
+      }
+      .font-sans {
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+      }
+      .font-inter {
+        font-family: Inter, sans-serif;
+      }
+      .font-medium {
+        font-weight: 500;
+      }
+      .font-semibold {
+        font-weight: 600;
+      }
+      .font-bold {
+        font-weight: 700;
+      }
+      .h-0 {
+        height: 0;
+      }
+      .h-3 {
+        height: 0.75rem;
+      }
+      .h-4 {
+        height: 1rem;
+      }
+      .h-5 {
+        height: 1.25rem;
+      }
+      .h-7 {
+        height: 1.75rem;
+      }
+      .h-8 {
+        height: 2rem;
+      }
+      .h-12 {
+        height: 3rem;
+      }
+      .h-auto {
+        height: auto;
+      }
+      .h-full {
+        height: 100%;
+      }
+      .text-xs {
+        font-size: 0.75rem;
+        line-height: 1rem;
+      }
+      .text-sm {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+      }
+      .text-lg {
+        font-size: 1.125rem;
+      }
+      .text-lg,
+      .text-xl {
+        line-height: 1.75rem;
+      }
+      .text-xl {
+        font-size: 1.25rem;
+      }
+      .text-2xl {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+      .text-3xl {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+      }
+      .text-4xl {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+      }
+      .text-5xl {
+        font-size: 3rem;
+        line-height: 1;
+      }
+      .text-6xl {
+        font-size: 3.75rem;
+        line-height: 1;
+      }
+      .leading-9 {
+        line-height: 2.25rem;
+      }
+      .leading-none {
+        line-height: 1;
+      }
+      .leading-tight {
+        line-height: 1.25;
+      }
+      .leading-snug {
+        line-height: 1.375;
+      }
+      .my-7 {
+        margin-top: 1.75rem;
+        margin-bottom: 1.75rem;
+      }
+      .my-10 {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+      }
+      .mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .-mx-2 {
+        margin-left: -0.5rem;
+        margin-right: -0.5rem;
+      }
+      .-mx-4 {
+        margin-left: -1rem;
+        margin-right: -1rem;
+      }
+      .mt-1 {
+        margin-top: 0.25rem;
+      }
+      .mr-1 {
+        margin-right: 0.25rem;
+      }
+      .mb-1 {
+        margin-bottom: 0.25rem;
+      }
+      .mt-2 {
+        margin-top: 0.5rem;
+      }
+      .mr-2 {
+        margin-right: 0.5rem;
+      }
+      .mb-2 {
+        margin-bottom: 0.5rem;
+      }
+      .mt-3 {
+        margin-top: 0.75rem;
+      }
+      .mr-3 {
+        margin-right: 0.75rem;
+      }
+      .mr-4 {
+        margin-right: 1rem;
+      }
+      .mb-4 {
+        margin-bottom: 1rem;
+      }
+      .mt-5 {
+        margin-top: 1.25rem;
+      }
+      .mb-5 {
+        margin-bottom: 1.25rem;
+      }
+      .mb-6 {
+        margin-bottom: 1.5rem;
+      }
+      .mb-7 {
+        margin-bottom: 1.75rem;
+      }
+      .mr-8 {
+        margin-right: 2rem;
+      }
+      .mb-8 {
+        margin-bottom: 2rem;
+      }
+      .mt-10 {
+        margin-top: 2.5rem;
+      }
+      .mb-10 {
+        margin-bottom: 2.5rem;
+      }
+      .mt-12 {
+        margin-top: 3rem;
+      }
+      .mb-12 {
+        margin-bottom: 3rem;
+      }
+      .-ml-3 {
+        margin-left: -0.75rem;
+      }
+      .-mb-24 {
+        margin-bottom: -6rem;
+      }
+      .max-h-full {
+        max-height: 100%;
+      }
+      .max-w-none {
+        max-width: none;
+      }
+      .max-w-full {
+        max-width: 100%;
+      }
+      .min-h-72 {
+        min-height: 18rem;
+      }
+      .min-h-screen {
+        min-height: 100vh;
+      }
+      .object-contain {
+        -o-object-fit: contain;
+        object-fit: contain;
+      }
+      .object-right {
+        -o-object-position: right;
+        object-position: right;
+      }
+      .opacity-0 {
+        opacity: 0;
+      }
+      .opacity-25 {
+        opacity: 0.25;
+      }
+      .hover\:opacity-75:hover,
+      .opacity-75 {
+        opacity: 0.75;
+      }
+      .focus\:outline-none:focus {
+        outline: 2px solid transparent;
+        outline-offset: 2px;
+      }
+      .overflow-hidden {
+        overflow: hidden;
+      }
+      .overflow-scroll {
+        overflow: scroll;
+      }
+      .overflow-x-hidden {
+        overflow-x: hidden;
+      }
+      .p-1 {
+        padding: 0.25rem;
+      }
+      .p-2 {
+        padding: 0.5rem;
+      }
+      .p-3 {
+        padding: 0.75rem;
+      }
+      .p-4 {
+        padding: 1rem;
+      }
+      .px-2 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+      }
+      .py-3 {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+      }
+      .py-4 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+      .px-4 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .py-5 {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+      }
+      .py-6 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+      }
+      .py-10 {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+      }
+      .py-12 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+      }
+      .pb-3 {
+        padding-bottom: 0.75rem;
+      }
+      .pt-4 {
+        padding-top: 1rem;
+      }
+      .pt-5 {
+        padding-top: 1.25rem;
+      }
+      .pb-5 {
+        padding-bottom: 1.25rem;
+      }
+      .pl-6 {
+        padding-left: 1.5rem;
+      }
+      .pb-8 {
+        padding-bottom: 2rem;
+      }
+      .pl-8 {
+        padding-left: 2rem;
+      }
+      .pt-10 {
+        padding-top: 2.5rem;
+      }
+      .pb-10 {
+        padding-bottom: 2.5rem;
+      }
+      .pl-10 {
+        padding-left: 2.5rem;
+      }
+      .pb-20 {
+        padding-bottom: 5rem;
+      }
+      .fixed {
+        position: fixed;
+      }
+      .absolute {
+        position: absolute;
+      }
+      .relative {
+        position: relative;
+      }
+      .top-0 {
+        top: 0;
+      }
+      .right-0 {
+        right: 0;
+      }
+      .bottom-0 {
+        bottom: 0;
+      }
+      .left-0 {
+        left: 0;
+      }
+      .top-3 {
+        top: 0.75rem;
+      }
+      .right-3 {
+        right: 0.75rem;
+      }
+      .top-6 {
+        top: 1.5rem;
+      }
+      .top-10 {
+        top: 2.5rem;
+      }
+      .-top-0 {
+        top: 0;
+      }
+      .-top-1 {
+        top: -0.25rem;
+      }
+      .-top-3 {
+        top: -0.75rem;
+      }
+      * {
+        --tw-shadow: 0 0 transparent;
+      }
+      .shadow {
+        --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+      }
+      .shadow {
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+      }
+      .shadow-xl {
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+      }
+      .shadow-xl {
+        --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      }
+      .shadow-2xl {
+        --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+      }
+      .shadow-2xl {
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+      }
+      * {
+        --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+        --tw-ring-offset-width: 0px;
+        --tw-ring-offset-color: #fff;
+        --tw-ring-color: rgba(59, 130, 246, 0.5);
+        --tw-ring-offset-shadow: 0 0 transparent;
+        --tw-ring-shadow: 0 0 transparent;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .text-white {
+        --tw-text-opacity: 1;
+        color: rgba(255, 255, 255, var(--tw-text-opacity));
+      }
+      .text-gray-200 {
+        --tw-text-opacity: 1;
+        color: rgba(228, 228, 231, var(--tw-text-opacity));
+      }
+      .text-gray-300 {
+        --tw-text-opacity: 1;
+        color: rgba(212, 212, 216, var(--tw-text-opacity));
+      }
+      .text-gray-400 {
+        --tw-text-opacity: 1;
+        color: rgba(161, 161, 170, var(--tw-text-opacity));
+      }
+      .text-gray-500 {
+        --tw-text-opacity: 1;
+        color: rgba(113, 113, 122, var(--tw-text-opacity));
+      }
+      .text-gray-600 {
+        --tw-text-opacity: 1;
+        color: rgba(82, 82, 91, var(--tw-text-opacity));
+      }
+      .text-gray-800 {
+        color: rgba(39, 39, 42, var(--tw-text-opacity));
+      }
+      .text-yellow-500 {
+        --tw-text-opacity: 1;
+        color: rgba(245, 158, 11, var(--tw-text-opacity));
+      }
+      .text-blue-500 {
+        --tw-text-opacity: 1;
+        color: rgba(59, 130, 246, var(--tw-text-opacity));
+      }
+      .text-blue-700 {
+        --tw-text-opacity: 1;
+        color: rgba(29, 78, 216, var(--tw-text-opacity));
+      }
+      .text-warmGray-800 {
+        --tw-text-opacity: 1;
+        color: rgba(41, 37, 36, var(--tw-text-opacity));
+      }
+      .text-forestgreen {
+        --tw-text-opacity: 1;
+        color: rgba(34, 173, 56, var(--tw-text-opacity));
+      }
+      .text-codgray {
+        --tw-text-opacity: 1;
+        color: rgba(21, 21, 21, var(--tw-text-opacity));
+      }
+      .text-hitgray {
+        --tw-text-opacity: 1;
+        color: rgba(175, 183, 189, var(--tw-text-opacity));
+      }
+      .text-opacity-80 {
+        --tw-text-opacity: 0.8;
+      }
+      .hover\:text-opacity-100:hover {
+        --tw-text-opacity: 1;
+      }
+      .italic {
+        font-style: italic;
+      }
+      .uppercase {
+        text-transform: uppercase;
+      }
+      .lowercase {
+        text-transform: lowercase;
+      }
+      .normal-case {
+        text-transform: none;
+      }
+      .hover\:underline:hover {
+        text-decoration: underline;
+      }
+      .antialiased {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .visible {
+        visibility: visible;
+      }
+      .invisible {
+        visibility: hidden;
+      }
+      .w-3 {
+        width: 0.75rem;
+      }
+      .w-4 {
+        width: 1rem;
+      }
+      .w-5 {
+        width: 1.25rem;
+      }
+      .w-6 {
+        width: 1.5rem;
+      }
+      .w-7 {
+        width: 1.75rem;
+      }
+      .w-12 {
+        width: 3rem;
+      }
+      .w-20 {
+        width: 5rem;
+      }
+      .w-28 {
+        width: 7rem;
+      }
+      .w-44 {
+        width: 11rem;
+      }
+      .w-72 {
+        width: 18rem;
+      }
+      .w-80 {
+        width: 20rem;
+      }
+      .w-1\/2 {
+        width: 50%;
+      }
+      .w-2\/5 {
+        width: 40%;
+      }
+      .w-3\/5 {
+        width: 60%;
+      }
+      .w-full {
+        width: 100%;
+      }
+      .w-screen {
+        width: 100vw;
+      }
+      .w-21\/24 {
+        width: 87.5%;
+      }
+      .z-10 {
+        z-index: 10;
+      }
+      .z-40 {
+        z-index: 40;
+      }
+      .z-50 {
+        z-index: 50;
+      }
+      .transform {
+        --tw-translate-x: 0;
+        --tw-translate-y: 0;
+        --tw-rotate: 0;
+        --tw-skew-x: 0;
+        --tw-skew-y: 0;
+        --tw-scale-x: 1;
+        --tw-scale-y: 1;
+        transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+      }
+      .scale-50 {
+        --tw-scale-x: 0.5;
+        --tw-scale-y: 0.5;
+      }
+      .scale-100 {
+        --tw-scale-x: 1;
+        --tw-scale-y: 1;
+      }
+      .rotate-45 {
+        --tw-rotate: 45deg;
+      }
+      .rotate-90 {
+        --tw-rotate: 90deg;
+      }
+      .rotate-180 {
+        --tw-rotate: 180deg;
+      }
+      .translate-x-full {
+        --tw-translate-x: 100%;
+      }
+      .-translate-y-24 {
+        --tw-translate-y: -6rem;
+      }
+      .-translate-y-full {
+        --tw-translate-y: -100%;
+      }
+      .transition-all {
+        transition-property: all;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 0.15s;
+      }
+      @-webkit-keyframes spin {
+        to {
+          transform: rotate(1turn);
+        }
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(1turn);
+        }
+      }
+      @-webkit-keyframes ping {
+        to {
+          transform: scale(2);
+          opacity: 0;
+        }
+      }
+      @keyframes ping {
+        75%,
+        to {
+          transform: scale(2);
+          opacity: 0;
+        }
+      }
+      @keyframes pulse {
+        50% {
+          opacity: 0.5;
+        }
+      }
+      @-webkit-keyframes bounce {
+        to {
+          transform: translateY(-25%);
+          -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+          animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        }
+      }
+      @keyframes bounce {
+        0%,
+        to {
+          transform: translateY(-25%);
+          -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+          animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        }
+        50% {
+          transform: none;
+          -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+          animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        }
+      }
+      @-webkit-keyframes marquee {
+        to {
+          transform: translate(-100%);
+        }
+      }
+      @keyframes marquee {
+        0% {
+          transform: translate(0);
+        }
+        to {
+          transform: translate(-100%);
+        }
+      }
+      @-webkit-keyframes marquee2 {
+        to {
+          transform: translateX(0);
+        }
+      }
+      @keyframes marquee2 {
+        0% {
+          transform: translateX(100%);
+        }
+        to {
+          transform: translateX(0);
+        }
+      }
+      @-webkit-keyframes flip {
+        to {
+          transform: perspective(400px);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+        }
+      }
+      @keyframes flip {
+        0% {
+          transform: perspective(400px) rotateY(-1turn);
+        }
+        0%,
+        40% {
+          -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+        }
+        40% {
+          transform: perspective(400px) translateZ(150px) rotateY(-190deg);
+        }
+        50% {
+          transform: perspective(400px) translateZ(150px) rotateY(-170deg);
+        }
+        50%,
+        80% {
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+        }
+        80% {
+          transform: perspective(400px) scale3d(0.95, 0.95, 0.95);
+        }
+        to {
+          transform: perspective(400px);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+        }
+      }
+      .animate-spin {
+        -webkit-animation: spin 1s linear infinite;
+        animation: spin 1s linear infinite;
+      }
+      @-webkit-keyframes growshrink {
+        to {
+          transform: scale(1.1);
+        }
+      }
+      @keyframes growshrink {
+        0% {
+          transform: scale(1);
+        }
+        to {
+          transform: scale(1.1);
+        }
+      }
+      @-webkit-keyframes slideBackAndForth {
+        to {
+          left: 0;
+        }
+      }
+      @keyframes slideBackAndForth {
+        0% {
+          left: 0;
+        }
+        50% {
+          left: -500px;
+        }
+        to {
+          left: 0;
+        }
+      }
+      .text-gray-800 {
+        --tw-text-opacity: 1;
+        color: rgba(41, 37, 36, var(--tw-text-opacity));
+      }
+      .pb-4 {
+        padding-bottom: 1rem;
+      }
+      .js-tooltip .arrow-up {
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid #fff;
+        z-index: 99;
+      }
+      .faq__item-input:checked ~ .faq__item-label {
+        background: transparent;
+        font-weight: 700;
+      }
+      .faq__item-input:checked ~ .faq__body {
+        max-height: 100vh;
+        border-right: 1px solid #e7e5e4;
+        border-bottom: 1px solid #e7e5e4;
+        border-left: 1px solid #e7e5e4;
+        border-width: 0 1px 1px;
+        transition: all 0.3s ease-in-out;
+      }
+      .faq__body {
+        max-height: 0;
+        overflow: hidden;
+      }
+      .tippy-box {
+        border-radius: 4px;
+        font-size: 12px;
+        box-shadow: 0 0 20px 4px rgb(154 161 177/15%), 0 4px 80px -8px rgb(36 40 47/25%), 0 4px 4px -2px rgb(91 94 105/15%);
+      }
+      .remove-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .remove-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .form-disclaimer {
+        --tw-text-opacity: 1;
+        color: rgba(41, 37, 36, var(--tw-text-opacity));
+      }
+      .exit-intent .form-disclaimer {
+        --tw-text-opacity: 1;
+        color: rgba(255, 255, 255, var(--tw-text-opacity));
+      }
+      @media (min-width: 640px) {
+        .sm\:h-12 {
+          height: 3rem;
+        }
+        .sm\:w-1\/2 {
+          width: 50%;
+        }
+      }
+      @media (min-width: 768px) {
+        .md\:block {
+          display: block;
+        }
+        .md\:inline-flex {
+          display: inline-flex;
+        }
+        .md\:hidden {
+          display: none;
+        }
+        .md\:flex-row {
+          flex-direction: row;
+        }
+        .md\:mb-12 {
+          margin-bottom: 3rem;
+        }
+        .md\:w-10\/12 {
+          width: 83.333333%;
+        }
+        .md\:w-full {
+          width: 100%;
+        }
+        .md\:w-9\/24 {
+          width: 37.5%;
+        }
+        .md\:w-15\/24 {
+          width: 62.5%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .lg\:block {
+          display: block;
+        }
+        .lg\:inline-block {
+          display: inline-block;
+        }
+        .lg\:flex {
+          display: flex;
+        }
+        .lg\:inline-flex {
+          display: inline-flex;
+        }
+        .lg\:hidden {
+          display: none;
+        }
+        .lg\:flex-row {
+          flex-direction: row;
+        }
+        .lg\:items-center {
+          align-items: center;
+        }
+        .lg\:justify-center {
+          justify-content: center;
+        }
+        .lg\:text-lg {
+          font-size: 1.125rem;
+          line-height: 1.75rem;
+        }
+        .lg\:text-xl {
+          font-size: 1.25rem;
+          line-height: 1.75rem;
+        }
+        .lg\:text-4xl {
+          font-size: 2.25rem;
+          line-height: 2.5rem;
+        }
+        .lg\:text-5xl {
+          font-size: 3rem;
+          line-height: 1;
+        }
+        .lg\:my-10 {
+          margin-top: 2.5rem;
+          margin-bottom: 2.5rem;
+        }
+        .lg\:-mx-4 {
+          margin-left: -1rem;
+          margin-right: -1rem;
+        }
+        .lg\:-mx-8 {
+          margin-left: -2rem;
+          margin-right: -2rem;
+        }
+        .lg\:-mx-10 {
+          margin-left: -2.5rem;
+          margin-right: -2.5rem;
+        }
+        .lg\:-mx-14 {
+          margin-left: -3.5rem;
+          margin-right: -3.5rem;
+        }
+        .lg\:mt-0 {
+          margin-top: 0;
+        }
+        .lg\:mb-0 {
+          margin-bottom: 0;
+        }
+        .lg\:mb-10 {
+          margin-bottom: 2.5rem;
+        }
+        .lg\:mb-20 {
+          margin-bottom: 5rem;
+        }
+        .lg\:-mr-14 {
+          margin-right: -3.5rem;
+        }
+        .lg\:p-0 {
+          padding: 0;
+        }
+        .lg\:p-4 {
+          padding: 1rem;
+        }
+        .lg\:py-4 {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+        }
+        .lg\:px-4 {
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
+        .lg\:px-8 {
+          padding-left: 2rem;
+          padding-right: 2rem;
+        }
+        .lg\:py-10 {
+          padding-top: 2.5rem;
+          padding-bottom: 2.5rem;
+        }
+        .lg\:px-10 {
+          padding-left: 2.5rem;
+          padding-right: 2.5rem;
+        }
+        .lg\:px-14 {
+          padding-left: 3.5rem;
+          padding-right: 3.5rem;
+        }
+        .lg\:pb-0 {
+          padding-bottom: 0;
+        }
+        .lg\:pr-4 {
+          padding-right: 1rem;
+        }
+        .lg\:pl-4 {
+          padding-left: 1rem;
+        }
+        .lg\:pt-5 {
+          padding-top: 1.25rem;
+        }
+        .lg\:pt-10 {
+          padding-top: 2.5rem;
+        }
+        .lg\:pt-32 {
+          padding-top: 8rem;
+        }
+        .lg\:top-10 {
+          top: 2.5rem;
+        }
+        .lg\:-top-5 {
+          top: -1.25rem;
+        }
+        .lg\:w-64 {
+          width: 16rem;
+        }
+        .lg\:w-auto {
+          width: auto;
+        }
+        .lg\:w-3\/4 {
+          width: 75%;
+        }
+        .lg\:w-6\/12 {
+          width: 50%;
+        }
+        .lg\:w-6\/24 {
+          width: 25%;
+        }
+        .lg\:w-10\/24 {
+          width: 42%;
+        }
+        .lg\:w-11\/24 {
+          width: 46%;
+        }
+        .lg\:w-12\/24 {
+          width: 50%;
+        }
+        .lg\:w-13\/24 {
+          width: 54.1667%;
+        }
+        .lg\:w-14\/24 {
+          width: 58.3333%;
+        }
+        .lg\:w-18\/24 {
+          width: 75%;
+        }
+        .lg\:translate-y-0 {
+          --tw-translate-y: 0px;
+        }
+      }
+      :root {
+        --color-primary: ;
+        --color-secondary: ;
+      }
+    </style>
+    <script defer="defer" src="https://unpkg.com/vue@2.6.14/dist/vue.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body id="body" class="font-sans bg-white">
+    <div class="relative flex flex-col min-h-screen antialiased">
+      <style>
+        .cta-theme-override {
+          background-color: #0052ccff;
+        }
+
+        .form-cta-theme-override {
+          background-color: #0052ccff;
+        }
+
+        .form-cta-theme-override:hover {
+        }
+      </style>
+      <div class="overflow-x-hidden so-10">
+        <style>
+          .so-10 .hero-bg {
+            background-image: url(./assets/img/2022/01/16/1645014794554-a6869948-40f4-4225-9fde-c15a82d860ac.png);
+            background-size: 120%;
+            background-position: -0% 40%;
+          }
+          @media (min-width: 1028px) {
+            .so-10 .hero-bg {
+              background-position: 108% 10%;
+              background-size: 40%;
+            }
+          }
+          .so-10 .hero-bg-filler {
+            height: 570px;
+            background: #f8f7fe;
+          }
+        </style>
+        <section class="relative bg-no-repeat hero-bg">
+          <div class="container relative z-10 pt-4 lg:pt-5 font-inter">
+            <div class="flex items-center justify-between mb-10">
+              <span class="inline-block w-44 lg:w-64">
+                <img class="block" src="./assets/img/logo.png" width="256" height="16" />
+              </span>
+              <div class="relative">
+                <div class="inline-flex text-xs lg:text-xl">
+                  <a href="#register" class="bg-so-10-cta text-white cta-theme-override inline-flex items-center justify-center w-full p-2 font-bold rounded lg:p-4"
+                    ><span class="mr-2">Lernen beginnen </span
+                    ><span class="flex w-4 h-4 transform rotate-90"
+                      ><svg class="w-full h-full" viewBox="0 0 20 20"><path fill="currentColor" d="M2.582 13.891c-.272.268-.709.268-.979 0s-.271-.701 0-.969l7.908-7.83a.697.697 0 01.979 0l7.908 7.83a.68.68 0 010 .969.695.695 0 01-.978 0L10 6.75l-7.418 7.141z" /></svg></span
+                  ></a>
+                </div>
+                <div class="absolute w-full"></div>
+              </div>
+            </div>
+            <div class="flex flex-col lg:-mx-10 lg:flex-row">
+              <div class="flex flex-col lg:px-10 lg:w-13/24">
+                <h1 class="mb-10 text-4xl font-bold leading-tight text-gray-800 lg:text-5xl"><p>Investing365: Der komplette Online-Investitionskurs 2022</p></h1>
+                <div class="flex-wrap hidden pb-5 lg:flex">
+                  <div class="w-1/2 pb-5">
+                    <div class="flex items-start text-xl">
+                      <span class="flex-grow-0 flex-shrink-0 inline-block p-2 mr-2 text-white bg-blue-700 rounded-full w-7 h-7"
+                        ><svg class="w-full h-full" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" /></svg></span
+                      ><span>3 Artikel</span>
+                    </div>
+                  </div>
+                  <div class="w-1/2 pb-5">
+                    <div class="flex items-start text-xl">
+                      <span class="flex-grow-0 flex-shrink-0 inline-block p-2 mr-2 text-white bg-blue-700 rounded-full w-7 h-7"
+                        ><svg class="w-full h-full" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" /></svg></span
+                      ><span>Voller Zugang auf Lebenszeit</span>
+                    </div>
+                  </div>
+                  <div class="w-1/2 pb-5">
+                    <div class="flex items-start text-xl">
+                      <span class="flex-grow-0 flex-shrink-0 inline-block p-2 mr-2 text-white bg-blue-700 rounded-full w-7 h-7"
+                        ><svg class="w-full h-full" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" /></svg></span
+                      ><span>Bescheinigung über den Abschluss</span>
+                    </div>
+                  </div>
+                  <div class="w-1/2 pb-5">
+                    <div class="flex items-start text-xl">
+                      <span class="flex-grow-0 flex-shrink-0 inline-block p-2 mr-2 text-white bg-blue-700 rounded-full w-7 h-7"
+                        ><svg class="w-full h-full" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" /></svg></span
+                      ><span>8 Stunden Video auf Abruf</span>
+                    </div>
+                  </div>
+                  <div class="w-1/2 pb-5">
+                    <div class="flex items-start text-xl">
+                      <span class="flex-grow-0 flex-shrink-0 inline-block p-2 mr-2 text-white bg-blue-700 rounded-full w-7 h-7"
+                        ><svg class="w-full h-full" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" /></svg></span
+                      ><span>Zugang über Handy und TV</span>
+                    </div>
+                  </div>
+                  <div class="w-1/2 pb-5">
+                    <div class="flex items-start text-xl">
+                      <span class="flex-grow-0 flex-shrink-0 inline-block p-2 mr-2 text-white bg-blue-700 rounded-full w-7 h-7"
+                        ><svg class="w-full h-full" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" /></svg></span
+                      ><span>21 Ressourcen zum Herunterladen</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:px-10 lg:w-11/24">
+                <div id="register" class="relative z-40 bg-white rounded-lg shadow-2xl">
+                  <div id="registration">
+                    <registration-form
+                      component-type="registration-form"
+                      :send-to-partner="false"
+                      block="hero"
+                      country-code="DE"
+                      language="de"
+                      offer="2943"
+                      url="https://centraltechredirect.com"
+                      register-endpoint="/services/offers/register"
+                      schema-endpoint="/services/offers/register"
+                      fake="true"
+                      button-text="Heute anmelden"
+                      success-message="Vielen Dank für Ihre Registrierung. Wir setzen uns mit Ihnen in Verbindung."
+                      underage-redirect-link=""
+                      translations='{"1h":"1h","24-chg":"24-Stunden-Tausch","24h":"24 Stunden","24-support-continuous-assistance":"24-Stunden-Support und kontinuierliche Betreuung.","24-volume":"Volumen (24 Std)","7d":"7 Tage","7-spots-left":null,"add-a-comment":"Einen Kommentar hinzufügen","additional-features":"Weitere Merkmale","advertorial":"Werbeanzeige","all-rights-reserved":"Alle Rechte vorbehalten","also-post-on-facebook":"Auch auf Facebook veröffentlichen","ask":"Nachfrage","as-seen-on":null,"associated-links":"Zugehörige Links","before-you-leave":"Bevor Sie gehen ...","best-provider":"Bester Anbieter","bid":"Gebot","brand-review-lp":"{{brand}} Bewertung","buy-entity":"{{entity}} kaufen","by":"Von","by-completing-this-form-i-understand-that-i-am-going-to-be-redirected-to-a-3rd-party-trading-partner-and-that-my-personal-information-will-be-shared":null,"chg":"Wechsel %","choose-different-currency-or-date":"Bitte wählen Sie eine andere Währung oder ein anderes Datum.","circulating-supply":"Umlaufende Versorgung","coin":"Währung","comments":"Kommentare","commission-and-fees":"Kommission und Gebühren","compare-now":"Jetzt vergleichen","confirm-18-years-older":"Ich bestätige, dass ich mindestens 18 Jahre alt bin","contact-us":"Kontakt","cookie-policy":"Cookie-Richtlinien","current-price":"Aktueller {{stock}}-Kurs","customers-in":null,"daily-high":"Tageshoch","daily-low":"Tagestief","days":"Tag","description":"Beschreibung","disclaimer":"Haftungsausschluss","earnings-account-24-hours":"Gewinne auf Ihrem Konto innerhalb von 24 Stunden","email-support":"E-Mail-Support","entity-past-price":"{{entity}}-Kurs {{year}}","etoro-performance-disclaimer":null,"exclusive-offer-for":null,"exclusive-promotion":"Exklusive promotion","exclusive-promotions":null,"exit-intent-subheader":"Die Märkte sind schnelllebig. Verpassen Sie nicht Ihre Chance, von den jüngsten Anstiegen und Rückgängen zu profitieren.Registrieren Sie sich heute und lassen Sie sich überraschen, wenn Sie Ihren ersten 2-Wochen-Gewinn abheben!","expert-reviews":"Expertenbewertungen","fast-payments":"Schnelle Auszahlungen","features":"Funktionen","fill-in-your-infomation-below-and-get-started":null,"finish":"Abschließen","forex-pairs":"Forex-Paare","frequently-asked-questions":"FAQ","full-regulations-list":"Vollständige Liste der Vorschriften","get-access-now":"Jetzt Zugang erhalten","high":"Hoch","hrs":"STD","investment-offers":"Investment-Angebote","join-the-discussion":null,"leverage":"Hebel","like":"Gefällt mir","live-chat-support":"Live-Chat-Support","loading":"Wird geladen","load-more-comments":"10 weitere Kommentare laden","log-in-to-post":"Zum Veröffentlichen anmelden","low":"Tief","market-cap":"Marktkapitalisierung","min":"Min","min-deposit":"Mindesteinzahlung","minimum-deposit":"Mindesteinzahlung","mobile-apps":"Mobile Anwendung","more-info":"Mehr Infos\n","more-info-2":"mehr Info","more-information":null,"name-review":"{name} erfahrungen","nathan-test":null,"new":"Neu","new-accounts":"Neues Konto","no":"Nein","no-data-for-currency-symbol":"Wir haben keine Daten in dieser Währung für {symbol}.","no-fee":"Keine Gebühr","number-of-assets":"Anzahl der Vermögenswerte","number-posts":"{number} Beiträge","number-posts-lp":"{{number}} Beiträge","open-account":"Account eröffnen","our-score":"Unsere Punktzahl","pair":"Paar","payment-methods":"Zahlungsarten","payment-methods-2":"Zahlungsarten","percentage-complete":"{{number}}% vollständig","personal-information-will-be-shared":"Beim Ausfüllen dieses Formulars nehme ich zur Kenntnis, dass ich an einen externen Handelspartner weitergeleitet werde und dass meine persönlichen Daten weitergegeben werden.","phone-support":"Telefon-Support","pips":"Pips","price":"Gewinnchancen","price-performance-disclaimer":"Frühere Wertentwicklung ist kein Hinweis auf zukünftige Ergebnisse","privacy-policy":"Datenschutzerklärung","profitability-high":"Hohe Rentabilität","pros":"Vorteile","quick-links":null,"read-more":"Weiterlesen","register":"Registrieren","register-now":"Jetzt mein Konto eröffnen!","register-today":"Jetzt mein Konto eröffnen!","regulations":"Regulationen","reply":"Antworten","safe-authorised-platform":"Sichere und zugelassene Plattform","score":"Bewertung","sec":"Sek","see-all-pages":"Alle Seiten anzeigen","see-brokers":null,"see-our-top-suggestions":"Siehe unsere besten Vorschläge","share":"Aktie","show-more-replies-thread":"10 weitere Antworten in diesem Thema anzeigen","sign-up":"Registrierung","sign-up-now":"jetzt anmelden","simple-learning-tools":"Einfache Learning Tools","spreads":"Spreads","start-trading":"Jetzt handeln","start-trading-in-3-easy-steps":"In 3 einfachen Schritten mit dem Handel anfangen","start-trading-now":"Jetzt mit dem Handel beginnen","symbol":"Symbol","teaching-material":"Bildung","terms-and-conditions":"Geschäftsbedingungen","test":"Test","thanks-for-registering":"Vielen Dank für die Registrierung!","thanks-for-registering-we-ll-be-in-touch":"Vielen Dank für Ihre Registrierung. Wir setzen uns mit Ihnen in Verbindung.","the-best-broker-reviews":"Die besten Broker-Bewertungen","time-remaining":null,"tools":"Händler-Tools","total-supply":"Gesamtangebot","trade":"Handeln","trade-now":"Jetzt handeln","traders-in":null,"try-broker":"Testen Sie {broker}","try-broker-now":"Testen Sie {broker} jetzt","unexpected-error-please-try-again":"Unerwarteter Fehler, bitte versuchen Sie es erneut","upon-completeing-regulated-broker":"Wenn Sie dieses Formular ausfüllen, werden Sie zu einem regulierten Broker weitergeleitet","user-reviews":"Benutzer-Bewertungen","user-score":"Benutzerbewertung","users-have-traded-here-today":null,"visit":"Zur Website von","visit-broker":"Besuchen Sie Makler","volume-24-hours":"Volumen (24 Stunden)","wait":"Warte ab","watch-now-before-its-deleted-in":"Jetzt ansehen, bevor es gelöscht wird:","we-are-aware":"Uns sind zahlreiche Websites bekannt, die falsche Vermerke von Prominenten verwenden, um Kunden an nicht regulierte Broker oder Callcenter weiterzuleiten. Unsere Website wird Kunden nur an Partner weiterleiten, die uns die erforderlichen behördlichen Zusicherungen gegeben haben. Dies ist ein Marketingangebot und unsere regulierten Partner geben bei der Registrierung an, welche Dienste ihnen zur Verfügung stehen.","we-don&#x27;t-share-your-data":"Wir geben Ihre Daten nicht weiter","well-redirect-you-to-a-partner-shortly":"Wir leiten Sie in Kürze an einen Partner weiter","yes":"Ja","you-might-like":"Das könnte Ihnen gefallen...","your-capital-is-at-risk":"Ihr Kapital ist gefährdet","your-registration-is-still-in-progress":"Ihre Registrierung ist noch nicht abgeschlossen","ytd-change":"Bisherige Jahreswechselrate"}'
+                      :get-offer-by-id="true"
+                      ><template #button="{ loading }"
+                        ><button :disabled="loading" type="submit" class="flex items-center justify-between w-full px-4 py-3 font-bold text-white uppercase transition-all bg-blue-500 rounded shadow form-cta-theme-override hover:bg-blue-700 hover:opacity-75 focus:outline-none">
+                          <span v-if="loading">Wird geladen...</span> <span class="mr-4 text-xl normal-case">Heute anmelden</span>
+                          <div class="w-4 h-4 text-white transform rotate-90">
+                            <svg class="w-full h-full" viewBox="0 0 20 20"><path fill="currentColor" d="M2.582 13.891c-.272.268-.709.268-.979 0s-.271-.701 0-.969l7.908-7.83a.697.697 0 01.979 0l7.908 7.83a.68.68 0 010 .969.695.695 0 01-.978 0L10 6.75l-7.418 7.141z" /></svg>
+                          </div></button></template
+                    ></registration-form>
+                  </div>
+                  <p class="px-4 pb-4 text-xs text-center text-warmGray-800 form-disclaimer">Beim Ausfüllen dieses Formulars nehme ich zur Kenntnis, dass ich an einen externen Handelspartner weitergeleitet werde und dass meine persönlichen Daten weitergegeben werden.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="absolute bottom-0 w-full -z-1">
+            <img src="./assets/img/2022/01/16/1645015271903-b06b9085-b15d-41f8-87c7-80d19ec617fc.png" class="w-full" />
+            <div class="lg:hidden hero-bg-filler"></div>
+          </div>
+        </section>
+        <style>
+          @media only screen and (min-width: 1024px) {
+            .tradesCompletedImage {
+              max-height: 500px;
+            }
+          }
+        </style>
+        <section class="relative pt-10 trade-completed bg-gray lg:pt-32">
+          <div class="container">
+            <div class="flex flex-col lg:-mx-8 lg:flex-row">
+              <div class="flex lg:px-8 lg:w-10/24">
+                <div class="relative flex flex-col justify-center w-full mx-auto">
+                  <div class="w-full tradesCompletedImage pt-5"><img class="block" style="" image-service="/services/images" relative="true" src="./assets/img/2022/11/07/1670415046753-319777a3-7f8b-43cc-8c01-4dfabd7ee1f8.png" width="410" height="500" /></div>
+                </div>
+              </div>
+              <div class="lg:px-8 bg-gray lg:mb-0 lg:w-14/24">
+                <h2 class="mt-10 mb-10 text-3xl font-bold leading-tight text-gray-800 lg:mt-0 lg:text-4xl">Was Sie lernen werden</h2>
+                <div class="pb-5">
+                  <div class="pb-5">
+                    <div class="flex items-start text-lg lg:text-xl">
+                      <span class="flex-grow-0 flex-shrink-0 inline-block p-2 mr-3 text-white bg-blue-700 rounded-full w-7 h-7"
+                        ><svg class="w-full h-full" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" /></svg></span
+                      ><span>Wie man in ETFs für den Aktienmarkt investiert und von der Börse profitiert</span>
+                    </div>
+                  </div>
+                  <div class="pb-5">
+                    <div class="flex items-start text-lg lg:text-xl">
+                      <span class="flex-grow-0 flex-shrink-0 inline-block p-2 mr-3 text-white bg-blue-700 rounded-full w-7 h-7"
+                        ><svg class="w-full h-full" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" /></svg></span
+                      ><span>Wie Sie Ihr finanzielles Ziel festlegen und Ihren eigenen Investitionsplan entwickeln</span>
+                    </div>
+                  </div>
+                  <div class="pb-5">
+                    <div class="flex items-start text-lg lg:text-xl">
+                      <span class="flex-grow-0 flex-shrink-0 inline-block p-2 mr-3 text-white bg-blue-700 rounded-full w-7 h-7"
+                        ><svg class="w-full h-full" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" /></svg></span
+                      ><span>Wie man die besten Chancen am Aktienmarkt entdeckt</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col lg:-mx-14 lg:flex-row">
+              <div class="flex lg:px-14 lg:w-10/24">
+                <div class="hidden lg:block">
+                  <div style="color: #0052ccff" class="pb-3 text-6xl font-bold leading-none trades-completed">5 Stunden</div>
+                  <div class="text-xl leading-snug text-gray-600">Links zu diesem Preis</div>
+                </div>
+              </div>
+              <div class="lg:px-8 bg-gray lg:mb-0 lg:w-14/24">
+                <div class="relative hidden pb-10 lg:inline-block">
+                  <div class="inline-flex text-xs lg:text-xl">
+                    <a href="#register" class="bg-so-10-cta text-white cta-theme-override inline-flex items-center justify-center w-full p-2 font-bold rounded lg:p-4"
+                      ><span class="mr-2">Lernen beginnen </span
+                      ><span class="flex w-4 h-4 transform rotate-90"
+                        ><svg class="w-full h-full" viewBox="0 0 20 20"><path fill="currentColor" d="M2.582 13.891c-.272.268-.709.268-.979 0s-.271-.701 0-.969l7.908-7.83a.697.697 0 01.979 0l7.908 7.83a.68.68 0 010 .969.695.695 0 01-.978 0L10 6.75l-7.418 7.141z" /></svg></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="top-angle"></div>
+          <div class="container mt-10 mb-5 lg:my-10">
+            <h2 class="mb-10 text-3xl font-bold leading-tight text-center text-gray-800 lg:text-4xl">Mehrere Zahlungsoptionen umfassen</h2>
+            <div class="flex flex-wrap items-center justify-center -mx-2"><img src="./assets/img/2022/01/11/1644583208832-af856c52-f202-4bea-8657-f32948eeb4f6.png" alt="paypal" class="h-8 mx-auto sm:h-12" /> <img src="./assets/img/2022/01/11/1644583208925-21417e24-a575-4e1d-842a-7cae63387c7f.png" alt="mastercard" class="h-8 mx-auto sm:h-12" /> <img src="./assets/img/2022/01/11/1644583208852-a413781a-6d40-4f29-b4da-ab25df17be09.png" alt="visa" class="h-8 mx-auto sm:h-12" /> <img src="./assets/img/2022/01/11/1644583208856-781ab4c2-7fa6-49ea-99f8-8d8952793926.png" alt="bank transfer" class="h-8 mx-auto sm:h-12" /> <img src="./assets/img/2022/01/11/1644583208826-09efa022-d141-4bb1-9660-2b76f5489d74.png" alt="neteller" class="h-8 mx-auto sm:h-12" /> <img src="./assets/img/2022/01/11/1644583208845-0c44a2b5-3c35-4a49-8120-855fd0f62094.png" alt="skrill" class="h-8 mx-auto sm:h-12" /></div>
+          </div>
+          <div class="bottom-angle"></div>
+        </section>
+        <section class="py-10 portfolio bg-gray">
+          <div class="container">
+            <div class="flex flex-col-reverse lg:-mx-4 lg:flex-row">
+              <div class="lg:px-4 lg:w-14/24">
+                <h2 class="mt-12 mb-10 text-4xl font-bold leading-tight text-gray-800 lg:mt-0">Kursanforderungen</h2>
+                <div class="flex items-start pb-8 text-xl">
+                  <span class="flex-grow-0 flex-shrink-0 inline-block p-2 mr-3 text-white bg-blue-700 rounded-full w-7 h-7"
+                    ><svg class="w-full h-full" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" /></svg></span
+                  ><span>Für die Teilnahme an diesem Kurs sind keine grundlegenden oder technischen Kenntnisse erforderlich.</span>
+                </div>
+                <div class="flex items-start pb-8 text-xl">
+                  <span class="flex-grow-0 flex-shrink-0 inline-block p-2 mr-3 text-white bg-blue-700 rounded-full w-7 h-7"
+                    ><svg class="w-full h-full" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" /></svg></span
+                  ><span>Lassen Sie keine Lektionen aus - alle Lektionen sind wichtig!</span>
+                </div>
+                <div class="flex items-start pb-8 text-xl">
+                  <span class="flex-grow-0 flex-shrink-0 inline-block p-2 mr-3 text-white bg-blue-700 rounded-full w-7 h-7"
+                    ><svg class="w-full h-full" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" /></svg></span
+                  ><span>Leidenschaft und Begeisterung für das Lernen.</span>
+                </div>
+                <div class="flex-col pt-4 mb-10 lg:mb-10 lg:inline-flex">
+                  <a href="#register" class="bg-so-10-cta text-white cta-theme-override inline-flex items-center justify-center w-full p-2 font-bold rounded lg:p-4"
+                    ><span class="mr-2">Mehr erfahren </span
+                    ><span class="flex w-4 h-4 transform rotate-90"
+                      ><svg class="w-full h-full" viewBox="0 0 20 20"><path fill="currentColor" d="M2.582 13.891c-.272.268-.709.268-.979 0s-.271-.701 0-.969l7.908-7.83a.697.697 0 01.979 0l7.908 7.83a.68.68 0 010 .969.695.695 0 01-.978 0L10 6.75l-7.418 7.141z" /></svg></span
+                  ></a>
+                </div>
+                <div class="block pl-6 border-l lg:hidden">
+                  <div class="pb-3 text-5xl font-bold leading-none trades-completed"></div>
+                  <div class="text-lg leading-snug text-gray-600"></div>
+                </div>
+              </div>
+              <div class="lg:px-4 lg:w-10/24">
+                <div class="flex items-center h-full"><img src="./assets/img/2022/08/22/1663838950602-66a0ab30-180d-44a5-a196-9d56f0b9d589.png" alt="" class="" /></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="steps">
+          <div class="top-angle"></div>
+          <div class="container py-10 mx-auto" style="max-width: 682px">
+            <h2 class="mb-5 text-4xl font-bold leading-tight text-gray-800">Melden Sie sich an und lernen Sie in 5 Minuten</h2>
+            <h3 class="mb-10 text-2xl text-gray-800"><p>Meistern Sie den Aktienhandel - verstehen Sie den Markt. Der Investing365-Kurs wurde entwickelt, um Sie von der Unwissenheit über den Aktienmarkt zu genügend Wissen zu bringen, um wie ein Profi zu kaufen und zu verkaufen und Ihr eigenes Portfolio zu vergrößern.</p></h3>
+            <div class="flex items-start pb-8 text-xl">
+              <span class="flex items-center justify-center flex-grow-0 flex-shrink-0 inline-block w-12 h-12 p-3 mr-3 text-white bg-blue-700 rounded-full"><img src="./assets/img/2022/01/16/1645014286602-0b5f868c-77f9-44ae-bfe0-0aeeecce164b.png" alt="" /></span>
+              <div class="relative text-xl leading-9 text-gray-800 -top-1">
+                <span class="block font-bold">Anmeldung zum Kurs</span>
+                <div class=""><p>Wählen Sie den Kurs in Ihrem E-Learning-Konto aus und übermitteln Sie Ihre Zahlungsinformationen, um Zugang zu erhalten</p></div>
+              </div>
+            </div>
+            <div class="flex-col lg:inline-flex">
+              <a href="#register" class="bg-so-10-cta text-white cta-theme-override inline-flex items-center justify-center w-full p-2 font-bold rounded lg:p-4"
+                ><span class="mr-2">Jetzt beitreten </span
+                ><span class="flex w-4 h-4 transform rotate-90"
+                  ><svg class="w-full h-full" viewBox="0 0 20 20"><path fill="currentColor" d="M2.582 13.891c-.272.268-.709.268-.979 0s-.271-.701 0-.969l7.908-7.83a.697.697 0 01.979 0l7.908 7.83a.68.68 0 010 .969.695.695 0 01-.978 0L10 6.75l-7.418 7.141z" /></svg></span
+              ></a>
+            </div>
+          </div>
+        </section>
+        <div class="bottom-angle"></div>
+        <section class="py-10 best-traders bg-gray">
+          <div class="container">
+            <div class="flex flex-col -mx-4 lg:flex-row">
+              <div class="px-4 mb-6 lg:w-12/24 lg:mb-10"><img src="https://media.igms.io/2022/11/20/1671557528202-720018ca-4470-48cf-9eeb-c22f55eca551.png" alt="" class="relative lg:-top-5" /></div>
+              <div class="px-4 lg:w-12/24">
+                <h2 class="mb-6 text-4xl font-bold leading-tight text-gray-800 lg:mb-10">Warum sollten Sie heute mit dem Lernen beginnen?</h2>
+                <p class="mb-10 text-xl leading-9 text-gray-800">In diesem Kurs lernen Sie, wie Sie Gelegenheiten erkennen, mit denen Sie Ihr eigenes Portfolio online aufbauen kÃ¶nnen. Sie werden auch die Macht des Zinseszinses kennenlernen. Entdecken Sie die Magie des Zinseszinses und warum er wichtig ist, um Ihr Vermögen zu vermehren, indem Sie einfache, bewährte Strategien anwenden. Sie werden auch viel über börsengehandelte Fonds (ETFs) erfahren und wie Sie diese zum Schutz Ihres Geldes nutzen können. Wir sprechen auch über Hacks, damit Sie ein klügerer und kalkulierterer Anleger werden, Sie lernen, wie Sie Verluste vermeiden können, und vieles mehr!</p>
+                <span class="flex-col lg:inline-flex lg:text-xl"
+                  ><a href="#register" class="bg-so-10-cta text-white cta-theme-override inline-flex items-center justify-center w-full p-2 font-bold rounded lg:p-4"
+                    ><span class="mr-2">Lernen beginnen </span
+                    ><span class="flex w-4 h-4 transform rotate-90"
+                      ><svg class="w-full h-full" viewBox="0 0 20 20"><path fill="currentColor" d="M2.582 13.891c-.272.268-.709.268-.979 0s-.271-.701 0-.969l7.908-7.83a.697.697 0 01.979 0l7.908 7.83a.68.68 0 010 .969.695.695 0 01-.978 0L10 6.75l-7.418 7.141z" /></svg></span></a
+                ></span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="top-angle"></div>
+        <section class="py-10 millennial">
+          <div class="container">
+            <div class="flex flex-col items-center mb-10 text-gray-800 md:mb-12 md:flex-row">
+              <h2 class="mb-10 text-4xl font-bold leading-tight text-gray-800 md:w-15/24">Nach Abschluss dieses Programms haben Sie Folgendes in der Hand</h2>
+              <div class="w-screen pb-5 mobile-background md:hidden">
+                <div class="container sm:w-1/2 md:w-full lg:mb-20"><img class="block flex items-baseline justify-center w-full" style="" image-service="/services/images" relative="true" src="./assets/img/2022/11/20/1671552479844-5898fea3-7d22-456c-b82e-fd92489bf139.png" width="470" height="535" /></div>
+                <div class="container sm:w-1/2 md:w-full"><img class="block flex items-baseline justify-center w-full" style="" image-service="/services/images" relative="true" src="#" width="395" height="198" /></div>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="md:w-15/24">
+                <div class="text-xl leading-9 text-gray-800 millennial-text">
+                  <p>- Ein Verständnis der privaten Märkte, des privaten Beteiligungskapitals, der Vermögensallokation und die notwendigen Fähigkeiten, um neue Möglichkeiten in der Vermögensverwaltung zu nutzen.</p>
+                  <p><br /></p>
+                  <p>- Beherrschung der Sprache und der Terminologie der Privatmärkte sowie die Fähigkeit, ein Investitionsmemorandum zu erstellen und eine Investitionsstrategie für Privatmärkte umzusetzen.</p>
+                  <p><br /></p>
+                  <p>- Das Wissen und die Instrumente, um den Wert zu bestimmen, den Erwerb zu finanzieren, den Wert von Vermögenswerten auf dem privaten Markt zu steigern und die Zukunft dieser alternativen Investitionen zu antizipieren.</p>
+                  <p><br /></p>
+                  <p>- Einblicke in Megatrends und Zukunftsprognosen für die Privatmarktlandschaft von führenden Oxford-Fakultäten sowie einer Schar von über vierzig globalen Branchenexperten.</p>
+                </div>
+                <div class="py-5 my-10 border-t border-b">
+                  <a href="null" class="inline-block mb-1 text-blue-700">Registrieren Sie sich noch heute und lernen Sie >></a>
+                  <div class="text-xl font-bold text-gray-800"></div>
+                </div>
+                <div class="mb-12 text-xl leading-9 text-gray-800 millennial-text"></div>
+                <div class="flex-col mb-10 md:inline-flex">
+                  <a href="#register" class="bg-so-10-cta text-white cta-theme-override inline-flex items-center justify-center w-full p-2 font-bold rounded lg:p-4"
+                    ><span class="mr-2">Heute lernen </span
+                    ><span class="flex w-4 h-4 transform rotate-90"
+                      ><svg class="w-full h-full" viewBox="0 0 20 20"><path fill="currentColor" d="M2.582 13.891c-.272.268-.709.268-.979 0s-.271-.701 0-.969l7.908-7.83a.697.697 0 01.979 0l7.908 7.83a.68.68 0 010 .969.695.695 0 01-.978 0L10 6.75l-7.418 7.141z" /></svg></span
+                  ></a>
+                </div>
+                <p class=""></p>
+              </div>
+              <div class="hidden md:block md:w-9/24"><img class="block lg:mb-20" style="" image-service="/services/images" relative="true" src="./assets/img/2022/11/20/1671552479844-5898fea3-7d22-456c-b82e-fd92489bf139.png" width="470" height="535" /></div>
+            </div>
+          </div>
+        </section>
+        <div class="bottom-angle"></div>
+        <section class="section-wrap faq bg-gray">
+          <style>
+            .p-1\.5 {
+              padding: 0.375rem;
+            }
+            .-top-0\.5 {
+              top: -0.125rem;
+            }
+          </style>
+          <div class="angle">
+            <div class="container pt-10 pb-20">
+              <h2 class="mb-6 text-4xl font-bold">FAQs</h2>
+              <div>
+                <ol class="faq__parent" itemscope itemtype="https://schema.org/FAQPage">
+                  <li class="relative" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <input class="absolute top-0 left-0 opacity-0 faq__item-input" id="accordion-1" type="checkbox" />
+                    <label for="accordion-1" class="flex items-center justify-between w-full py-5 cursor-pointer faq__item-label hover:bg-alablasterlight"
+                      ><span itemprop="name" class="text-xl font-bold"><span class="inline-block mr-1">1.</span> Wie lange werde ich für den Abschluss des Kurses brauchen?</span>
+                      <span class="w-5 h-5 p-1.5 text-gray-200 transform rotate-45 bg-black rounded-full faq__icon-plus"
+                        ><svg class="w-full h-full" viewBox="0 0 365.696 365.696"><path fill="currentColor" d="M243.188 182.86L356.32 69.726c12.5-12.5 12.5-32.766 0-45.247L341.238 9.398c-12.504-12.503-32.77-12.503-45.25 0L182.86 122.528 69.727 9.374c-12.5-12.5-32.766-12.5-45.247 0L9.375 24.457c-12.5 12.504-12.5 32.77 0 45.25l113.152 113.152L9.398 295.99c-12.503 12.503-12.503 32.769 0 45.25L24.48 356.32c12.5 12.5 32.766 12.5 45.247 0l113.132-113.132L295.99 356.32c12.503 12.5 32.769 12.5 45.25 0l15.081-15.082c12.5-12.504 12.5-32.77 0-45.25zm0 0" /></svg></span
+                      ><span class="w-5 h-5 p-1.5 flex items-center justify-center text-gray-200 bg-black hidden rounded-full faq__icon-minus text-2xl"><span class="relative -top-0.5">-</span></span></label
+                    >
+                    <div class="max-w-full px-4 prose faq__body text-codgray" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                      <div class="pb-4" itemprop="text"><p>Nur 8 Stunden! Es gibt 8 Stunden Video auf Abruf, die Sie sich ansehen und lernen können. Sie können sowohl mit dem Handy als auch mit dem Computer oder dem Fernseher darauf zugreifen. Lernen Sie unterwegs, in Ihrem eigenen Tempo, mit lebenslangem Zugang zum Kurs.</p></div>
+                    </div>
+                  </li>
+                  <li class="relative" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <input class="absolute top-0 left-0 opacity-0 faq__item-input" id="accordion-2" type="checkbox" />
+                    <label for="accordion-2" class="flex items-center justify-between w-full py-5 cursor-pointer faq__item-label hover:bg-alablasterlight"
+                      ><span itemprop="name" class="text-xl font-bold"><span class="inline-block mr-1">2.</span> Brauche ich Handelserfahrung?</span>
+                      <span class="w-5 h-5 p-1.5 text-gray-200 transform rotate-45 bg-black rounded-full faq__icon-plus"
+                        ><svg class="w-full h-full" viewBox="0 0 365.696 365.696"><path fill="currentColor" d="M243.188 182.86L356.32 69.726c12.5-12.5 12.5-32.766 0-45.247L341.238 9.398c-12.504-12.503-32.77-12.503-45.25 0L182.86 122.528 69.727 9.374c-12.5-12.5-32.766-12.5-45.247 0L9.375 24.457c-12.5 12.504-12.5 32.77 0 45.25l113.152 113.152L9.398 295.99c-12.503 12.503-12.503 32.769 0 45.25L24.48 356.32c12.5 12.5 32.766 12.5 45.247 0l113.132-113.132L295.99 356.32c12.503 12.5 32.769 12.5 45.25 0l15.081-15.082c12.5-12.504 12.5-32.77 0-45.25zm0 0" /></svg></span
+                      ><span class="w-5 h-5 p-1.5 flex items-center justify-center text-gray-200 bg-black hidden rounded-full faq__icon-minus text-2xl"><span class="relative -top-0.5">-</span></span></label
+                    >
+                    <div class="max-w-full px-4 prose faq__body text-codgray" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                      <div class="pb-4" itemprop="text"><p>Nein. Der Investing365-Kurs ist sowohl für Anfänger als auch für erfahrene Trader von Vorteil. Anfänger können von Grund auf lernen, ohne zu wissen, wie man handelt, und erfahrene Trader können ihre eigenen Strategien verfeinern, was Zeit spart und Fehler reduziert.</p></div>
+                    </div>
+                  </li>
+                  <li class="relative" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <input class="absolute top-0 left-0 opacity-0 faq__item-input" id="accordion-3" type="checkbox" />
+                    <label for="accordion-3" class="flex items-center justify-between w-full py-5 cursor-pointer faq__item-label hover:bg-alablasterlight"
+                      ><span itemprop="name" class="text-xl font-bold"><span class="inline-block mr-1">3.</span> Wie lange wird es dauern, bis ich Zugang zum Kurs erhalte?</span>
+                      <span class="w-5 h-5 p-1.5 text-gray-200 transform rotate-45 bg-black rounded-full faq__icon-plus"
+                        ><svg class="w-full h-full" viewBox="0 0 365.696 365.696"><path fill="currentColor" d="M243.188 182.86L356.32 69.726c12.5-12.5 12.5-32.766 0-45.247L341.238 9.398c-12.504-12.503-32.77-12.503-45.25 0L182.86 122.528 69.727 9.374c-12.5-12.5-32.766-12.5-45.247 0L9.375 24.457c-12.5 12.504-12.5 32.77 0 45.25l113.152 113.152L9.398 295.99c-12.503 12.503-12.503 32.769 0 45.25L24.48 356.32c12.5 12.5 32.766 12.5 45.247 0l113.132-113.132L295.99 356.32c12.503 12.5 32.769 12.5 45.25 0l15.081-15.082c12.5-12.504 12.5-32.77 0-45.25zm0 0" /></svg></span
+                      ><span class="w-5 h-5 p-1.5 flex items-center justify-center text-gray-200 bg-black hidden rounded-full faq__icon-minus text-2xl"><span class="relative -top-0.5">-</span></span></label
+                    >
+                    <div class="max-w-full px-4 prose faq__body text-codgray" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                      <div class="pb-4" itemprop="text"><p>Es dauert nur etwa 5 Minuten, um sich anzumelden, Ihr Konto zu aktivieren und sich für den Kurs zu registrieren. Alles, was Sie tun müssen, ist, sich mit Ihren Daten auf dieser Seite zu registrieren, und wir schicken Ihnen sofort einen Aktivierungslink in Ihr E-Mail-Postfach! Folgen Sie einfach den Anweisungen in der E-Mail und legen Sie noch heute los.</p></div>
+                    </div>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="so-10">
+        <footer>
+          <div class="footer-angle"></div>
+          <div class="footer-bg-1">
+            <div class="container flex flex-col items-start justify-between py-6 lg:items-center lg:flex-row">
+              <nav class="flex flex-col font-semibold lg:justify-center lg:flex-row my-7"><a class="pb-5 text-white transition-all lg:pb-0 lg:pr-4 text-opacity-80 hover:underline hover:text-opacity-100" href="/terms-conditions/">Geschäftsbedingungen </a><a class="pb-5 text-white transition-all lg:pb-0 lg:px-4 text-opacity-80 hover:underline hover:text-opacity-100" href="/privacy-policy/">Datenschutzerklärung </a><a class="pb-5 text-white transition-all lg:pb-0 lg:pl-4 text-opacity-80 hover:underline hover:text-opacity-100" href="/disclaimer/">Haftungsausschluss</a></nav>
+            </div>
+          </div>
+          <div class="flex py-12 footer-bg-2">
+            <div class="container">
+              <div class="flex flex-col lg:flex-row">
+                <div class="pb-10 lg:px-10 lg:pb-0 lg:w-18/24">
+                  <style>
+                    .prose strong {
+                      color: #8e8e8e;
+                      font-weight: 600;
+                    }
+                  </style>
+                  <div class="prose-sm prose text-white text-gray-500 max-w-none">
+                    <p><strong>TERMS AND CONDITIONS CAREFULLY READ AND AGREE TO TERMS BELOW:</strong></p>
+                    <p>
+                      We are not affiliated in any way with any news publication. All trademarks on this web site whether registered or not, are the property of their respective owners. The authors of this web site are not sponsored by or affiliated with any of the third-party trade mark or third-party registered trade mark owners, and make no representations about them, their owners, their products or services. It is important to note that this site and the comments/answers depicted above is to be used as an illustrative example of what some individuals have achieved with this/these products. The website, and any page on the website, is based loosely off a true story, but has been modified in multiple ways including, but not limited to: the story, the photos, and the comments. Thus, this page, and any page on this website, are not to be taken literally or as a non-fiction story. Ther page, and the results mentioned on this page, although achievable for some, are not to be construed as
+                      the results that you may achieve on the same routine. I UNDERSTAND THIS WEBSITE IS ONLY ILLUSTRATIVE OF WHAT MIGHT BE ACHIEVABLE FROM USING THIS/THESE PRODUCTS, AND THAT THE STORY/COMMENTS DEPICTED ABOVE IS NOT TO BE TAKEN LITERALLY. Ther page receives compensation for clicks on or purchase of products featured on this site.
+                    </p>
+                    <p>IMPORTANT CONSUMER DISCLOSURE</p>
+                    <p>The term &quot;advertorial&quot; is a combination of &quot;advertisement&quot; and &quot;editorial&quot; written in an editorial format as an independent news story, when in fact the advertisement may promote a particular product or interest. Advertorials take factual information and report it in an editorial format to allow the author, often a company marketing its products, to enhance or explain certain elements to maintain the reader&#39;s interest. A familiar example is an airline&#39;s in-flight magazines that provide an editorial reports about travel destinations to which the airline flies.</p>
+                    <p>
+                      As an advertorial, I UNDERSTAND THIS WEBSITE IS ONLY ILLUSTRATIVE OF WHAT MIGHT BE ACHIEVABLE FROM USING THIS PROGRAM, AND THAT THE STORY DEPICTED ABOVE IS NOT TO BE TAKEN LITERALLY. Ther page receives compensation for clicks on or purchase of products featured on this site. Ther program is not a job but an educational opportunity that can help individuals learn how to earn money through their entrepreneurial efforts. Anyone who decides to buy any program about making money will not necessarily make money simply by purchasing the program. People who think &quot;I bought these materials so I&#39;m going to automatically make money&quot; are wrong. As any type of education has so many variables, it is impossible to accurately state what you may expect to achieve, however, people who bought the program not only bought the program, but also undertook additional training and education, applied the principles to an area of the market that was growing, kept their
+                      commitments and continued to learn. If you do what the individuals depicted did, you may generally expect to achieve a great education in the area of your choice, but you should not expect to earn any specific amount of money. Typical users of the starter materials that don&#39;t enroll in coaching, don&#39;t keep their commitments and don&#39;t implement what they learn, generally make no money. Though the success of the depicted individual is true, her picture and name have been changed to protect her identity. Consistent with the advertorial concept, the comments posted in the comment section are also representative of typical comments and experiences which have been compiled into a comment format to illustrate a dialogue, however, the comments are not actual posts to this webpage and have been compiled or generated for illustrative purposes only.
+                    </p>
+                    <p>We are not affiliated in any way with CNN, WebTV, News Channel 1, ABC, NBC, CBS, U.S. News or FOX, and all such trademarks on this web site, whether registered or not, are the property of their respective owners. The authors of this web site are not sponsored by or affiliated with any of the third-party trade mark or third-party registered trade mark owners, and make no representations about them, their owners, their products or services.</p>
+                  </div>
+                </div>
+                <div class="flex flex-col text-white lg:block lg:px-10 lg:w-6/24">
+                  <span class="inline-block pb-5 font-medium">Kontakt</span> <span class="inline-block pb-5 text-gray-300">address</span> <span class="inline-block pb-5 text-gray-300">phone</span> <span class="inline-block text-gray-300"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="dfbab2beb6b39fbab2beb6b3f1bcb0b2">[email&#160;protected]</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type="application/javascript" src="./assets/reg/v2/registration.js"></script>
+    <script type="application/javascript" src="https://unpkg.com/vue@2.6.14/dist/vue.min.js"></script>
+    <script type="application/javascript" src="./assets/reg/v2/registration-form.js"></script>
+  </body>
+</html>
